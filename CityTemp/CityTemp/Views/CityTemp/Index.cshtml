@@ -1,0 +1,69 @@
+﻿@{
+  ViewBag.Title = "City Temperature in 3 days!";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width" />
+  <title>@ViewBag.Title</title>
+  <link rel="stylesheet" href="../../Public/bootstrap-3.3.5-dist/css/bootstrap.css" />
+  <style>
+    #china 
+    {
+      height: 500px;
+      padding: 10px;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-user-select: none;
+      cursor: default;
+      background-color: rgba(0, 0, 0, 0);
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <br />
+    @*<form id="form" action="/CityTemp/jsonContent" method="post">
+        <select id="city">
+          <option name="BeiJing" value="BeiJing" selected>BeiJing</option>
+          <option name="ShangHai" value="ShangHai">ShangHai</option>
+        </select>
+      </form>*@
+
+    <div class="container-fluid row" >
+      <div id="ChinaMap" class="col-md-4" style="height: 500px;"></div>
+      <div id="ProvinceMap" class="col-md-4" style="height: 500px;"></div>
+      <div id="CountyMap" class="col-md-4" style="height: 500px;"></div>
+    </div>
+
+    @*<select id="city"></select>*@
+    <div id="ECharts" style="position: relative;text-align: center;">
+      <div id="line" style="position: absolute;height: 400px; width: 100%;"></div>
+      <img id="loading" src='../../Public/source/progressbar_long.gif' style='padding-top: 190px;display: none;width: 10%;' />
+    </div>
+
+  </div>
+</body>
+</html>
+@*<script type="text/javascript">
+  function cnvs_getCoordinates(e) {
+    x = e.clientX;    y = e.clientY;
+    document.getElementById("china").innerHTML = "Coordinates: (" + x + "," + y + ")";
+  }
+
+  function cnvs_clearCoordinates() {
+    document.getElementById("china").innerHTML = "";
+  }
+</script>*@
+<script>
+  var temp = new Array();
+  var time = new Array();
+  var cityName;
+</script>
+<script type="text/javascript" src="../../Public/script/jquery-2.1.4.min.js"></script>
+<script src="http://api.map.baidu.com/api?v=1.2" type="text/javascript"></script>
+<script type="text/javascript" src="../../Public/echarts/echarts.js"></script>
+<script type="text/javascript" src="../../Public/script/echartBarLine.js"></script>
+<script type="text/javascript" src="../../Public/script/echartsChina.js"></script>
+<script type="text/javascript" src="../../Public/script/getData.js"></script>

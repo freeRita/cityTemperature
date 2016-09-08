@@ -1,0 +1,96 @@
+[ 2016-01-21T16:11:53+08:00 ] ::1 /cityTempphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+NOTIC: [2] session_start(): open(D:/Program Files/php-5.6.15-Win32-VC11-x86/custom/session\sess_t164eqib33cbn37i30kebvb671, O_RDWR) failed: No such file or directory (2) V:\webRoot\CityTempPHP\ThinkPHP\Common\functions.php ç¬¬ 1263 è¡Œ.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001810s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001894s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2016-01-21T16:12:01+08:00 ] ::1 /CityTempPHP/index.php/Home/CityTemp/cityTemp?CityName=%E5%8C%97%E4%BA%AC&json&_=1453363913745
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2] session_start(): open(D:/Program Files/php-5.6.15-Win32-VC11-x86/custom/session\sess_t164eqib33cbn37i30kebvb671, O_RDWR) failed: No such file or directory (2) V:\webRoot\CityTempPHP\ThinkPHP\Common\functions.php ç¬¬ 1263 è¡Œ.
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+
+[ 2016-01-21T16:13:05+08:00 ] ::1 /cityTempphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+NOTIC: [2] session_start(): open(D:/Program Files/php-5.6.15-Win32-VC11-x86/custom/session\sess_t164eqib33cbn37i30kebvb671, O_RDWR) failed: No such file or directory (2) V:\webRoot\CityTempPHP\ThinkPHP\Common\functions.php ç¬¬ 1263 è¡Œ.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-01-21T16:13:07+08:00 ] ::1 /CityTempPHP/index.php/Home/CityTemp/cityTemp?CityName=%E5%8C%97%E4%BA%AC&json&_=1453363985969
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [2] session_start(): open(D:/Program Files/php-5.6.15-Win32-VC11-x86/custom/session\sess_t164eqib33cbn37i30kebvb671, O_RDWR) failed: No such file or directory (2) V:\webRoot\CityTempPHP\ThinkPHP\Common\functions.php ç¬¬ 1263 è¡Œ.
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+
+[ 2016-01-21T16:14:48+08:00 ] ::1 /cityTempphp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+NOTIC: [2] session_start(): open(D:/Program Files/php-5.6.15-Win32-VC11-x86/custom/session\sess_t164eqib33cbn37i30kebvb671, O_RDWR) failed: No such file or directory (2) V:\webRoot\CityTempPHP\ThinkPHP\Common\functions.php ç¬¬ 1263 è¡Œ.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-01-21T16:14:50+08:00 ] ::1 /CityTempPHP/index.php/Home/CityTemp/cityTemp?CityName=%E5%8C%97%E4%BA%AC&json&_=1453364088899
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [2] session_start(): open(D:/Program Files/php-5.6.15-Win32-VC11-x86/custom/session\sess_t164eqib33cbn37i30kebvb671, O_RDWR) failed: No such file or directory (2) V:\webRoot\CityTempPHP\ThinkPHP\Common\functions.php ç¬¬ 1263 è¡Œ.
+ERR: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+
+
